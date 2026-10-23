@@ -1,0 +1,81 @@
+id,allocation,module,function,value_json,options_json,expected,technique,purpose,smoke
+FA-EM-01,Faizan,email,email,"""student@example.com""",{},valid,ECP,Ordinary mailbox,yes
+FA-EM-02,Faizan,email,email,"""studentexample.com""",{},invalid,ECP,Missing at sign,yes
+FA-EM-03,Faizan,email,email,"""""",{},invalid,ECP,Empty input,no
+FA-EM-04,Faizan,email,email,"""a@@example.com""",{},invalid,ECP,Repeated at sign,no
+FA-EM-05,Faizan,email,email,"""@example.com""",{},invalid,ECP,Missing local part,no
+FA-EM-06,Faizan,email,email,"""student@""",{},invalid,ECP,Missing domain,no
+FA-EM-07,Faizan,email,email,"""aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@example.com""",{},valid,BVA,Local part 63 characters,no
+FA-EM-08,Faizan,email,email,"""aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@example.com""",{},valid,BVA,Local part at 64-character limit,no
+FA-EM-09,Faizan,email,email,"""aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@example.com""",{},invalid,BVA,Local part above 64-character limit,no
+FA-EM-10,Faizan,email,email,"""first.last+lab@example.com""",{},valid,ECP,Dots and plus tag,no
+US-EM-01,Usman,email,email,""".student@example.com""",{},invalid,ECP,Leading local-part dot,no
+US-EM-02,Usman,email,email,"""student.@example.com""",{},invalid,ECP,Trailing local-part dot,no
+US-EM-03,Usman,email,email,"""first..last@example.com""",{},invalid,ECP,Consecutive local-part dots,no
+US-EM-04,Usman,email,email,"""student name@example.com""",{},invalid,ECP,Unquoted space,no
+US-EM-05,Usman,email,email,"""Student@EXAMPLE.COM""",{},valid,ECP,Mixed letter case,no
+US-EM-06,Usman,email,email,"""student@localhost""",{},invalid,ECP,Simple host disabled,no
+US-EM-07,Usman,email,email,"""student@localhost""","{""simple_host"": true}",valid,ECP,Simple host enabled,no
+US-EM-08,Usman,email,email,"""student@[192.0.2.1]""","{""ipv4_address"": true}",valid,ECP,IPv4 literal enabled,no
+US-EM-09,Usman,email,email,"""student@[::1]""","{""ipv6_address"": true}",valid,ECP,IPv6 literal enabled,no
+US-EM-10,Usman,email,email,"""bad@@example.com""","{""r_ve"": true}",raises,ECP,Raise mode on invalid email,no
+FA-LN-01,Faizan,length,length,"""abcd""","{""min_val"": 3, ""max_val"": 5}",valid,ECP,Inside range,yes
+FA-LN-02,Faizan,length,length,"""ab""","{""min_val"": 3, ""max_val"": 5}",invalid,BVA,One below minimum,yes
+FA-LN-03,Faizan,length,length,"""abc""","{""min_val"": 3, ""max_val"": 5}",valid,BVA,At minimum,no
+FA-LN-04,Faizan,length,length,"""abcde""","{""min_val"": 3, ""max_val"": 5}",valid,BVA,At maximum,no
+FA-LN-05,Faizan,length,length,"""abcdef""","{""min_val"": 3, ""max_val"": 5}",invalid,BVA,One above maximum,no
+FA-LN-06,Faizan,length,length,"""""",{},valid,BVA,Empty input with no limits,no
+FA-LN-07,Faizan,length,length,"""""","{""min_val"": 1}",invalid,BVA,Empty below minimum one,no
+FA-LN-08,Faizan,length,length,"""a""","{""min_val"": 1}",valid,BVA,One character at minimum,no
+FA-LN-09,Faizan,length,length,"""""","{""max_val"": 0}",valid,BVA,Empty at explicit maximum zero,no
+FA-LN-10,Faizan,length,length,"""a""","{""max_val"": 0}",invalid,BVA,One above explicit maximum zero,no
+US-LN-01,Usman,length,length,"""abc""","{""min_val"": 3, ""max_val"": 3}",valid,BVA,Equal minimum and maximum,no
+US-LN-02,Usman,length,length,"""ab""","{""min_val"": 3, ""max_val"": 3}",invalid,BVA,Below exact length,no
+US-LN-03,Usman,length,length,"""abcd""","{""min_val"": 3, ""max_val"": 3}",invalid,BVA,Above exact length,no
+US-LN-04,Usman,length,length,"""abc""","{""min_val"": -1}",invalid,ECP,Negative minimum returns ValidationError,no
+US-LN-05,Usman,length,length,"""abc""","{""max_val"": -1}",invalid,ECP,Negative maximum returns ValidationError,no
+US-LN-06,Usman,length,length,"""abcd""","{""min_val"": 5, ""max_val"": 3}",invalid,ECP,Reversed bounds,no
+US-LN-07,Usman,length,length,"""پاکستان""","{""min_val"": 7, ""max_val"": 7}",valid,BVA,Unicode length counts characters,no
+US-LN-08,Usman,length,length,"""   ""","{""min_val"": 3, ""max_val"": 3}",valid,ECP,Whitespace counts toward length,no
+US-LN-09,Usman,length,length,null,{},invalid,ECP,None converted to validation failure,no
+US-LN-10,Usman,length,length,"""ab""","{""min_val"": 3, ""r_ve"": true}",raises,BVA,Raise mode below minimum,no
+FA-V4-01,Faizan,ip_address,ipv4,"""192.0.2.1""",{},valid,ECP,Ordinary IPv4 address,yes
+FA-V4-02,Faizan,ip_address,ipv4,"""256.1.1.1""",{},invalid,BVA,Octet above 255,yes
+FA-V4-03,Faizan,ip_address,ipv4,"""0.0.0.0""",{},valid,BVA,All octets at lower limit,no
+FA-V4-04,Faizan,ip_address,ipv4,"""255.255.255.255""",{},valid,BVA,All octets at upper limit,no
+FA-V4-05,Faizan,ip_address,ipv4,"""254.1.1.1""",{},valid,BVA,Octet below upper limit,no
+FA-V4-06,Faizan,ip_address,ipv4,"""-1.1.1.1""",{},invalid,BVA,Negative octet,no
+FA-V4-07,Faizan,ip_address,ipv4,"""1.1.1""","{""cidr"": false}",invalid,ECP,Too few octets,no
+FA-V4-08,Faizan,ip_address,ipv4,"""1.1.1.1.1""",{},invalid,ECP,Too many octets,no
+FA-V4-09,Faizan,ip_address,ipv4,"""01.2.3.4""",{},invalid,ECP,Leading zero,no
+FA-V4-10,Faizan,ip_address,ipv4,"""""",{},invalid,ECP,Empty input,no
+US-V4-01,Usman,ip_address,ipv4,"""192.0.2.0/0""",{},valid,BVA,Prefix at zero,no
+US-V4-02,Usman,ip_address,ipv4,"""192.0.2.1/32""",{},valid,BVA,Prefix at 32,no
+US-V4-03,Usman,ip_address,ipv4,"""192.0.2.1/33""",{},invalid,BVA,Prefix above 32,no
+US-V4-04,Usman,ip_address,ipv4,"""192.0.2.1/-1""",{},invalid,BVA,Prefix below zero,no
+US-V4-05,Usman,ip_address,ipv4,"""192.0.2.1/24""","{""cidr"": false}",invalid,ECP,CIDR disabled,no
+US-V4-06,Usman,ip_address,ipv4,"""192.0.2.1""","{""strict"": true}",invalid,ECP,Strict requires prefix,no
+US-V4-07,Usman,ip_address,ipv4,"""192.0.2.0/24""","{""host_bit"": false}",valid,ECP,Network address without host bits,no
+US-V4-08,Usman,ip_address,ipv4,"""192.0.2.1/24""","{""host_bit"": false}",invalid,ECP,Host bits rejected,no
+US-V4-09,Usman,ip_address,ipv4,"""10.0.0.1""","{""private"": true}",valid,ECP,Private filter accepts private address,no
+US-V4-10,Usman,ip_address,ipv4,"""256.1.1.1""","{""r_ve"": true}",raises,BVA,Raise mode above octet limit,no
+FA-V6-01,Faizan,ip_address,ipv6,"""2001:db8::1""",{},valid,ECP,Compressed IPv6,yes
+FA-V6-02,Faizan,ip_address,ipv6,"""2001:db8::gggg""",{},invalid,ECP,Non-hexadecimal segment,yes
+FA-V6-03,Faizan,ip_address,ipv6,"""::""",{},valid,BVA,All-zero address,no
+FA-V6-04,Faizan,ip_address,ipv6,"""ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff""",{},valid,BVA,All segments at upper limit,no
+FA-V6-05,Faizan,ip_address,ipv6,"""10000::""",{},invalid,BVA,Segment exceeds ffff,no
+FA-V6-06,Faizan,ip_address,ipv6,"""::1""",{},valid,ECP,Loopback address,no
+FA-V6-07,Faizan,ip_address,ipv6,"""1:2:3:4:5:6:7:8""",{},valid,BVA,Exactly eight segments,no
+FA-V6-08,Faizan,ip_address,ipv6,"""1:2:3:4:5:6:7:8:9""",{},invalid,BVA,Nine segments,no
+FA-V6-09,Faizan,ip_address,ipv6,"""1:2:3:4:5:6:7""",{},invalid,BVA,Seven segments without compression,no
+FA-V6-10,Faizan,ip_address,ipv6,"""""",{},invalid,ECP,Empty input,no
+US-V6-01,Usman,ip_address,ipv6,"""2001:db8::/0""",{},valid,BVA,Prefix at zero,no
+US-V6-02,Usman,ip_address,ipv6,"""2001:db8::1/128""",{},valid,BVA,Prefix at 128,no
+US-V6-03,Usman,ip_address,ipv6,"""2001:db8::1/129""",{},invalid,BVA,Prefix above 128,no
+US-V6-04,Usman,ip_address,ipv6,"""2001:db8::1/-1""",{},invalid,BVA,Prefix below zero,no
+US-V6-05,Usman,ip_address,ipv6,"""2001:db8::1/64""","{""cidr"": false}",invalid,ECP,CIDR disabled,no
+US-V6-06,Usman,ip_address,ipv6,"""2001:db8::1""","{""strict"": true}",invalid,ECP,Strict requires prefix,no
+US-V6-07,Usman,ip_address,ipv6,"""2001:db8::/64""","{""host_bit"": false}",valid,ECP,Network without host bits,no
+US-V6-08,Usman,ip_address,ipv6,"""2001:db8::1/64""","{""host_bit"": false}",invalid,ECP,Host bits rejected,no
+US-V6-09,Usman,ip_address,ipv6,"""::ffff:192.0.2.1""",{},valid,ECP,IPv4-mapped IPv6,no
+US-V6-10,Usman,ip_address,ipv6,"""2001:db8::gggg""","{""r_ve"": true}",raises,ECP,Raise mode on invalid IPv6,no
