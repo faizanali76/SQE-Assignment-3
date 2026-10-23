@@ -1,0 +1,7 @@
+# Frozen after validation; the application is installed from the local snapshot.
+pytest==9.0.2
+pytest-xdist==3.8.0
+pytest-order==1.3.0
+pytest-cov==7.0.0
+pytest-json-report==1.5.0
+-e ./vendor/validators

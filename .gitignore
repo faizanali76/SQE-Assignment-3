@@ -1,0 +1,12 @@
+.venv/
+.upstream/
+tmp/
+node_modules/
+__pycache__/
+.pytest_cache/
+.coverage*
+*.egg-info/
+reports/htmlcov/
+reports/latest-*.json
+reports/latest-*.xml
+reports/latest-*.txt
