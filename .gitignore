@@ -10,3 +10,4 @@ reports/htmlcov/
 reports/latest-*.json
 reports/latest-*.xml
 reports/latest-*.txt
+*.inspect.ndjson

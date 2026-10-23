@@ -1,0 +1,1453 @@
+{
+  "recorded_at": "2026-10-23T17:44:03.906718+05:00",
+  "python": "3.12.14",
+  "platform": "Windows",
+  "upstream_commit": "22786cc6e7283a0fa452c179797e447f798db9f0",
+  "runs": [
+    {
+      "run": "all-ordered",
+      "exitcode": 0,
+      "duration_seconds": 0.299,
+      "summary": {
+        "passed": 80,
+        "total": 80,
+        "collected": 80
+      },
+      "cases": [
+        {
+          "id": "FA-EM-01",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-06",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-07",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-08",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-09",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-10",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-01",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-06",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-07",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-08",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-09",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-10",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-01",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-06",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-07",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-08",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-09",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-10",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-01",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-06",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-07",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-08",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-09",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-10",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-01",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-06",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-07",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-08",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-09",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-10",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-01",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-06",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-07",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-08",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-09",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-10",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-01",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-06",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-07",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-08",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-09",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-10",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-01",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-06",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-07",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-08",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-09",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-10",
+          "outcome": "passed"
+        }
+      ]
+    },
+    {
+      "run": "all-parallel",
+      "exitcode": 0,
+      "duration_seconds": 1.173,
+      "summary": {
+        "passed": 80,
+        "total": 80,
+        "collected": 80
+      },
+      "cases": [
+        {
+          "id": "FA-EM-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-01",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-06",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-07",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-08",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-09",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-01",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-10",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-06",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-07",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-09",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-08",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-10",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-01",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-06",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-07",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-08",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-09",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-10",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-01",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-06",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-07",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-08",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-09",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-10",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-01",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-06",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-07",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-08",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-09",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-10",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-01",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-06",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-07",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-08",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-09",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-10",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-01",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-06",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-07",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-08",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-09",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-01",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-10",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-06",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-07",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-08",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-09",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-10",
+          "outcome": "passed"
+        }
+      ]
+    },
+    {
+      "run": "boundary-ordered",
+      "exitcode": 0,
+      "duration_seconds": 0.168,
+      "summary": {
+        "passed": 37,
+        "total": 37,
+        "collected": 80,
+        "deselected": 43
+      },
+      "cases": [
+        {
+          "id": "FA-EM-07",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-08",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-09",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-06",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-07",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-08",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-09",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-10",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-01",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-07",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-10",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-06",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-01",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-10",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-07",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-08",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-09",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-01",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-04",
+          "outcome": "passed"
+        }
+      ]
+    },
+    {
+      "run": "faizan-ordered",
+      "exitcode": 0,
+      "duration_seconds": 0.187,
+      "summary": {
+        "passed": 40,
+        "total": 40,
+        "collected": 80,
+        "deselected": 40
+      },
+      "cases": [
+        {
+          "id": "FA-EM-01",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-06",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-07",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-08",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-09",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-10",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-01",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-06",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-07",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-08",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-09",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-10",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-01",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-06",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-07",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-08",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-09",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-10",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-01",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-06",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-07",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-08",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-09",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-10",
+          "outcome": "passed"
+        }
+      ]
+    },
+    {
+      "run": "negative-ordered",
+      "exitcode": 0,
+      "duration_seconds": 0.202,
+      "summary": {
+        "passed": 46,
+        "total": 46,
+        "collected": 80,
+        "deselected": 34
+      },
+      "cases": [
+        {
+          "id": "FA-EM-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-06",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-09",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-01",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-06",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-10",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-07",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-10",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-06",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-09",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-10",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-06",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-07",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-08",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-09",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-10",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-06",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-08",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-10",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-08",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-09",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-10",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-06",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-08",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-10",
+          "outcome": "passed"
+        }
+      ]
+    },
+    {
+      "run": "smoke-ordered",
+      "exitcode": 0,
+      "duration_seconds": 0.117,
+      "summary": {
+        "passed": 8,
+        "total": 8,
+        "collected": 80,
+        "deselected": 72
+      },
+      "cases": [
+        {
+          "id": "FA-EM-01",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-EM-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-01",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-LN-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-01",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V4-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-01",
+          "outcome": "passed"
+        },
+        {
+          "id": "FA-V6-02",
+          "outcome": "passed"
+        }
+      ]
+    },
+    {
+      "run": "usman-ordered",
+      "exitcode": 0,
+      "duration_seconds": 0.293,
+      "summary": {
+        "passed": 40,
+        "total": 40,
+        "collected": 80,
+        "deselected": 40
+      },
+      "cases": [
+        {
+          "id": "US-EM-01",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-06",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-07",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-08",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-09",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-EM-10",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-01",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-06",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-07",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-08",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-09",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-LN-10",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-01",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-06",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-07",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-08",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-09",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V4-10",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-01",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-02",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-03",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-04",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-05",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-06",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-07",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-08",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-09",
+          "outcome": "passed"
+        },
+        {
+          "id": "US-V6-10",
+          "outcome": "passed"
+        }
+      ]
+    }
+  ],
+  "selected_module_statement_coverage": {
+    "email.py": {
+      "covered_lines": 14,
+      "num_statements": 15,
+      "percent_covered": 93.33333333333333,
+      "percent_covered_display": "93",
+      "missing_lines": 1,
+      "excluded_lines": 0,
+      "percent_statements_covered": 93.33333333333333,
+      "percent_statements_covered_display": "93"
+    },
+    "ip_address.py": {
+      "covered_lines": 33,
+      "num_statements": 34,
+      "percent_covered": 97.05882352941177,
+      "percent_covered_display": "97",
+      "missing_lines": 1,
+      "excluded_lines": 0,
+      "percent_statements_covered": 97.05882352941177,
+      "percent_statements_covered_display": "97"
+    },
+    "length.py": {
+      "covered_lines": 10,
+      "num_statements": 10,
+      "percent_covered": 100.0,
+      "percent_covered_display": "100",
+      "missing_lines": 0,
+      "excluded_lines": 0,
+      "percent_statements_covered": 100.0,
+      "percent_statements_covered_display": "100"
+    }
+  }
+}
